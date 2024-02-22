@@ -1,0 +1,12 @@
+initializePortResources: true
+scheduledResyncInterval: 120
+integration:
+  identifier: my-ocean-sonarqube-integration
+  type: sonarqube
+  eventListener:
+    type: POLLING
+  config:
+    sonarOrganizationId: peygis
+    sonarIsOnPremise: false
+  secrets:
+    sonarApiToken: aae19fd02d663b4a787f381f1d5f54d3bb7bbab1
