@@ -9,4 +9,4 @@ integration:
     sonarOrganizationId: peygis
     sonarIsOnPremise: false
   secrets:
-    sonarApiToken: aae19fd02d663b4a787f381f1d5f54d3bb7bbab1
+    sonarApiToken: token
